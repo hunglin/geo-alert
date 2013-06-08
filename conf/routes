@@ -3,6 +3,7 @@
 # ~~~~
 
 # Home page
+GET     /api-0.1/crime_record       controllers.Application.getCrimeRecord(month: Int, distance: Int, latitude: Double, longitude: Double)
 GET     /                           controllers.Application.index
 
 # Map static resources from the /public folder to the /assets URL path
